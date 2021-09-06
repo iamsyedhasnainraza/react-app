@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./components/Navbar";
-import SideBar from "./components/SideBar";
-import Posts from "./components/Posts";
-import Chats from "./components/Chats";
-import Chatbox from "./components/Chatbox";
+import NavBar from "./Navbar";
+import SideBar from "./SideBar";
+import Posts from "./Posts";
+import Chats from "./Chats";
+import Chatbox from "./Chatbox";
 
 function App() {
   const [state, setState] = React.useState(false);
